@@ -1,4 +1,4 @@
-d3.json("owid-covid-2020-11-19-usa.json").then(
+d3.json("website where data is served at").then(
     data => {    
         let trace1 = {
             x: data.map(d => d.date),
